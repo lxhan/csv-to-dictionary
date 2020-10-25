@@ -1,0 +1,28 @@
+body {
+  padding: 1rem;
+  font-family: sans-serif;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 5rem;
+}
+
+.list-header,
+.list-body,
+.details-header,
+.details-body-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.list-header > div,
+.list-body > div,
+.details-header > div,
+.details-body-row > div {
+  border: 1px solid #444;
+  flex: 1;
+  text-align: center;
+}
