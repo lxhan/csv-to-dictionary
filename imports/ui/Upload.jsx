@@ -46,10 +46,6 @@ const Upload = () => {
     setSelectedFile(e.target.files[0]);
   };
 
-  const fuck = (value) => {
-    console.log('value', value);
-  };
-
   return (
     <form onSubmit={handleSubmit}>
       <input
